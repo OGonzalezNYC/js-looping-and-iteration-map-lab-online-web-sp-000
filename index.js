@@ -56,4 +56,5 @@ function nameToAttributes(array) {
      }
      i++;
    });
+  }
 }
