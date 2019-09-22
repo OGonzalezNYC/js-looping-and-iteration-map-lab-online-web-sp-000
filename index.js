@@ -41,7 +41,7 @@ function lowerCaseDrivers(array) {
 //       ]
 
 function nameToAttributes(array) {
-  array.map(function(element) {
+  return array.map(function(element) {
      let newElement = {firstName: "", lastName: ""};
      let i = 0;
      while (i < element.length) {
