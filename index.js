@@ -1,17 +1,15 @@
 // Code your solution in this file.
-
-// function nameToAttributes(driversArray) {
-//   return driversArray.map(function(fullName) {
-//     return {firstName: fullName.split(" ")[0], lastName: fullName.split(" ")[1]}
-//   })
-// }
-
 function lowerCaseDrivers(array) {
   return array.map(function(element) {
     return element.toLowerCase();
   })
 }
 
+// function nameToAttributes(driversArray) {
+//   return driversArray.map(function(fullName) {
+//     return {firstName: fullName.split(" ")[0], lastName: fullName.split(" ")[1]}
+//   })
+// }
 function nameToAttributes(array) {
   return array.map(function(element) {
      let newElement = {firstName: "", lastName: ""};
