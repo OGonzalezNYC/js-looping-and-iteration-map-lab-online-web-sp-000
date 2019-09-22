@@ -48,11 +48,10 @@ function nameToAttributes(array) {
      if (i < indexOf(" ")) {
        newElement.firstName.push(element[i]);
      }
-     if (indexOf(element[i]) > indexOf(" ")) {
+     if (i > indexOf(" ")) {
        newElement[i].lastName.push(element[i]);
-       return newElement;
      }
      i++;
-   }
+   } return newElement;
   });
 }
