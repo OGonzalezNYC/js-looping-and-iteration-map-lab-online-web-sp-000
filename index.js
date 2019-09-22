@@ -37,3 +37,4 @@ function nameToAttributes(array) {
    } return newElement;
   });
 }
+
