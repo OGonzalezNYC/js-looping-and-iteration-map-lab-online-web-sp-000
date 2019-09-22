@@ -46,10 +46,10 @@ function nameToAttributes(array) {
      let i = 0;
      while (i < element.length) {
      if (i < element.indexOf(" ")) {
-       newElement.firstName.push(element[i]);
+       newElement.firstName = newElement.firstName + element[i];
      }
      if (i > element.indexOf(" ")) {
-       newElement.lastName.push(element[i]);
+       newElement.lastName = newElement.lastName + element[i];
      }
      i++;
    } return newElement;
