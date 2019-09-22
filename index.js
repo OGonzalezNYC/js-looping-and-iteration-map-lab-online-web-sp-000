@@ -48,8 +48,11 @@ function nameToAttributes(array) {
      
      if (indexOf(element[i]) < indexOf(" ")) {
        newElement[i].firstName.push(element[i]);
-     } else if (indexOf(element[i]) > indexOf(" ")) {
+       return newElement;
+     }
+     if (indexOf(element[i]) > indexOf(" ")) {
        newElement[i].lastName.push(element[i]);
+       return newElement;
      }
      i++;
      return newElement;
