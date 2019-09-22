@@ -6,11 +6,11 @@ function lowerCaseDrivers(array) {
   })
 }
 
-function nameToAttributes(array) {
-  return array.map(function(element) {
-    return {firstName: element.split(" ")[0], lastName: element.split(" ")[1]}
-  })
-}
+// function nameToAttributes(array) {
+//   return array.map(function(element) {
+//     return {firstName: element.split(" ")[0], lastName: element.split(" ")[1]}
+//   })
+// }
 function nameToAttributes(array) {
   return array.map(function(element) {
     let newElement = {firstName: "", lastName: ""};
