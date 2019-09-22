@@ -22,24 +22,6 @@ function lowerCaseDrivers(array) {
   })
 }
 
-// const drivers = [
-//         'Bobby Smith',
-//         'Sammy Watkins',
-//         'Sally Jenkins',
-//         'Annette Sawyer',
-//         'Sarah Hucklebee',
-//         'bobby ridge'
-//           ]
-
-// [
-//         { firstName: 'Bobby', lastName: 'Smith' },
-//         { firstName: 'Sammy', lastName: 'Watkins' },
-//         { firstName: 'Sally', lastName: 'Jenkins' },
-//         { firstName: 'Annette', lastName: 'Sawyer' },
-//         { firstName: 'Sarah', lastName: 'Hucklebee' },
-//         { firstName: 'bobby', lastName: 'ridge' }
-//       ]
-
 function nameToAttributes(array) {
   return array.map(function(element) {
      let newElement = {firstName: "", lastName: ""};
