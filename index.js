@@ -54,6 +54,6 @@ function nameToAttributes(array) {
        return newElement;
      }
      i++;
-   });
-  }
+   };
+  });
 }
