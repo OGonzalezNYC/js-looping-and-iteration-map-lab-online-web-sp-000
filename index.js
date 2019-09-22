@@ -45,8 +45,8 @@ function nameToAttributes(array) {
      let newElement = {};
      let i = 0;
      let j = 0;
-     while (i < element.length) {
-     if (i < indexOf(" ")) {
+     while (j < element.length) {
+     if (j < indexOf(" ")) {
        newElement[i].firstName.push(element[i]);
        return newElement;
      }
