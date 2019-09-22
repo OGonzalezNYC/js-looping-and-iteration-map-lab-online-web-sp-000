@@ -53,3 +53,7 @@ function nameToAttributes(array) {
 //         'Annette is from Los Angeles',
 //         'Bobby is from Tampa Bay'
 //       ]);
+
+function attributesToPhrase(array) {
+  
+}
