@@ -6,11 +6,6 @@
 //   })
 // }
 
-// function attributesToPhrase(driversArray) {
-//   return driversArray.map(function(object) {
-//     return `${object.name} is from ${object.hometown}`
-//   })
-// }
 function lowerCaseDrivers(array) {
   return array.map(function(element) {
     return element.toLowerCase();
